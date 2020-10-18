@@ -1,6 +1,5 @@
 import React,{Component} from "react"
 import './css/header.css'
-// import Logo from './logo.svg'
 import Mouse from './css/mickey.jpg'
 class Home extends Component{
 render(){
@@ -8,7 +7,9 @@ render(){
 <div className="new_header">
     <h2>Camera Management</h2>
     <div>
-    <img src={Mouse} alt="Flowers in Chania" className="responsive" width="50" height="50"/>
+    
+    <img src={Mouse} name="Joh" alt="Flowers in Chania" className="responsive" width="80" height="40"/>
+    <h5>John Smith</h5>
     </div>
 </div>
     )

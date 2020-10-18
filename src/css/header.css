@@ -10,4 +10,13 @@
 .responsive {
     max-width: 100%;
     height: auto;
+    padding-left: 50%;
+    align-self:right;
   }
+  @media screen and (max-width: 992px) {
+    .column {
+      flex: 100% !important;
+      align-self: flex-start; /* !important so that it overrides the inline style because by default it has higher priority */
+    }
+  }
+  
