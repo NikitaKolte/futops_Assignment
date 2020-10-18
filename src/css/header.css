@@ -1,0 +1,13 @@
+.new_header{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    border-style: solid;
+    border-width:1px;
+    border-color:whitesmoke;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
