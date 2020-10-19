@@ -1,17 +1,21 @@
 .new_header{
     width:100%;
     display:flex;
-    justify-content: center;
+  /* justify-content: center; */
     background-color: white;
     border-style: solid;
     border-width:1px;
     border-color:whitesmoke;
 }
+.heading{
+  text-align: center!important;
+}
 .responsive {
     max-width: 100%;
     height: auto;
-    padding-left: 50%;
-    align-self:right;
+    padding-left: 90%; 
+    justify-content: right!important;
+    /* margin-left: 22%; */
   }
   @media screen and (max-width: 992px) {
     .column {

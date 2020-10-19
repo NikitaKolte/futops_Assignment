@@ -1,5 +1,5 @@
 import axios from 'axios';
-const CAMERA_API_BASE_URL = "http://s3.us-east-2.amazonaws.com/ftilab.com/api/traffic-counter-cameras.json";
+const CAMERA_API_BASE_URL = "https://s3.us-east-2.amazonaws.com/ftilab.com/api/traffic-counter-cameras.json";
 var config = {
     headers: {'Access-Control-Allow-Origin': '*'}
 };
@@ -10,3 +10,4 @@ class CamService {
     }
 }
 export default new CamService()
+
